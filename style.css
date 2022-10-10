@@ -1,0 +1,272 @@
+:root{
+    --main-color:#d3ad7f;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--bg);
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 2rem 2rem;
+    background-color: black;
+}
+
+/* logo part start*/
+header .logo {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5px;
+    background-color: var(--bg);
+    width: 200px;
+    height: 100px;
+    border-radius: 9px;
+}
+/* logo part ends */
+
+/* navigation menu starts */
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1.5rem;
+}
+
+nav li{
+    display: inline-block;
+    justify-content: space-between;
+    width: 15rem;
+    border: 10px;
+}
+
+a{
+    color: #ffffffdb;
+    text-decoration: none;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+}
+
+a:hover {
+    color: var(--main-color);
+}
+
+hr{
+    background-color: var(--main-color);
+
+}
+
+/* navigation menu ends */
+
+/* main text starts*/
+
+/* main text ends */
+
+/* home part starts */
+
+h1,h2,p {
+    color: whitesmoke;
+}
+
+#home-heading{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Bebas Neue';
+}
+
+.bg-img{
+    display: flex;
+    /* background-image: url('images/gold\ jwellery1.jpg'); */
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text{
+    position: absolute;
+}
+
+.bg-text > h2,p{
+    width: 10rem;
+    justify-content: center;
+    text-align: inherit;
+    margin: 2rem;
+}
+
+
+
+/* home part ends */
+
+/* menu part starts */
+
+#menu-heading{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Bebas Neue';
+}
+
+#menu {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+.bg-image-one{
+    display: flex;
+    width: calc(100vw - 65%);
+    height: 300px;
+}
+
+.first-item{
+    position: absolute;
+    opacity: 0;
+}
+
+.first-item h2,p{
+    text-align: center;
+    width: calc(33vw - 15%);
+    color: var(--bg);
+}
+
+.first-item h2 {
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.first-item:hover{
+    opacity: 1;
+    transform: scale3d(90deg);
+    transition: 0.5s all ease-in;
+}
+
+
+.bg-image-two{
+    display: flex;
+    width: calc(100vw - 62%);
+    height: 300px;
+}
+
+.second-item{
+    position: absolute;
+    opacity: 0;
+}
+
+.second-item h2{
+    color: white;
+}
+
+.second-item h2{
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+
+.second-item p{
+    color: whitesmoke;
+}
+
+.second-item:hover{
+    opacity: 1;
+    transform: scale3d(90deg);
+    transition: 0.5s all ease-in;
+}
+
+.bg-image-three{
+    display: flex;
+    width: calc(100vw - 62%);
+    height: 300px;
+}
+
+.third-item{
+    position: absolute;
+    opacity: 0;
+}
+
+.third-item h2,p{
+    color: var(--bg);
+}
+
+.third-item h2{
+    padding-top: 1rem;
+    padding-left: 6rem;
+}
+
+.third-item p{
+    text-align: justify;
+    width: 330px;
+}
+
+.third-item button{
+    margin-left: 8em;
+}
+
+.third-item:hover{
+    opacity: 1;
+    transform: scale3d(90deg);
+    transition: 0.5s all ease-in;
+}
+
+button {
+    padding: 0.5rem 3rem;
+    border-radius: 30px;
+    border-color: transparent;
+    background-color: var(--main-color);
+    margin-left: 5rem;
+}
+
+button:hover{
+    padding: 0.5rem 3.1rem;
+    transform: translate3d(90deg);
+    transition: .5s all;
+    
+}
+
+
+/* menu part ends */
+
+/* footer part starts */
+
+h1{
+    padding: 2rem;
+    text-align: center;
+}
+
+footer div p{
+    color: whitesmoke;
+    padding-top: -10rem;
+}
+
+footer {
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+footer div .logo {
+    display: block;
+    /* background-col/or: rgba(239, 15, 41, 0.918); */
+    width: 200px;
+    height: 100px;
+    border-radius: 9px;
+}
+
+/* footer part ends */
